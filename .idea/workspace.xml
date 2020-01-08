@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b6e5a7-05e8-4a75-8245-33131131d73f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -190,8 +188,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578479205632</updated>
-      <workItem from="1578479208389" duration="1184000" />
+      <workItem from="1578479208389" duration="1273000" />
     </task>
+    <task id="LOCAL-00001" summary="Maj serialize-javascript 2.1.1">
+      <created>1578480471441</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578480471442</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,5 +213,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Maj serialize-javascript 2.1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maj serialize-javascript 2.1.1" />
   </component>
 </project>
