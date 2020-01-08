@@ -1,0 +1,134 @@
+
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@font-face {
+  src:url('./fonts/open-sans-v16-latin-regular.ttf');
+  font-family: 'Open Sans';
+}
+
+.bg-andel {
+  background-color: #077465;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.text-andel {
+  color:#589a8c !important;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+  color:#077465 !important;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #589a8c;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(52, 144, 220, 0.25);
+}
+.btn-andel {
+  color: #ffffff;
+  background-color: #589A8C;
+  border-color: #437369;
+}
+
+.btn-andel:hover,
+.btn-andel:focus,
+.btn-andel:active,
+.btn-andel.active,
+.open .dropdown-toggle.btn-andel {
+  color: #ffffff;
+  background-color: #437369;
+  border-color: #437369;
+}
+
+.btn-andel:active,
+.btn-andel.active,
+.open .dropdown-toggle.btn-andel {
+  background-image: none;
+}
+
+.btn-andel.disabled,
+.btn-andel[disabled],
+fieldset[disabled] .btn-andel,
+.btn-andel.disabled:hover,
+.btn-andel[disabled]:hover,
+fieldset[disabled] .btn-andel:hover,
+.btn-andel.disabled:focus,
+.btn-andel[disabled]:focus,
+fieldset[disabled] .btn-andel:focus,
+.btn-andel.disabled:active,
+.btn-andel[disabled]:active,
+fieldset[disabled] .btn-andel:active,
+.btn-andel.disabled.active,
+.btn-andel[disabled].active,
+fieldset[disabled] .btn-andel.active {
+  background-color: #589A8C;
+  border-color: #437369;
+}
+
+.btn-andel .badge {
+  color: #589A8C;
+  background-color: #ffffff;
+}
+
+.btn-outline-andel {
+    color: #589A8C;
+    border-color: #589A8C;
+}
+
+.alert-warning {
+    color: #000000;
+    background-color: #f8b317;
+    border-color: #a97500;
+}
+
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(6, 116, 101, 0.56);
+    border-radius: 0.25rem;
+}
+
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgb(6, 116, 101);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    color: white;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background-color:rgba(6, 116, 101, 0.56);
+}
+
+.card-header:first-child {
+    border-radius: 0px !important;
+}
+
+.btn-outline-andel {
+    color: #047465;
+    border-color: #047465;
+    border-radius: 0px;
+}
+
+a {
+    color: #067465;
+    text-decoration: none;
+    background-color: transparent;
+}
